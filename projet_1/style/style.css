@@ -20,7 +20,12 @@ body{
 
 
 
+@media(max-width:768px){
+    .content h1,.left-sidebar a,.right-sidebar h2 {
+        font-size: 1em;
 
+    } 
+}
 
 .container {
     display: flex;
@@ -100,10 +105,11 @@ nav a:hover{
     background-color: #fff;
     padding: 20px;
     border-right: 1px solid #ccc;
+    flex: auto;
 }
 
 .left-sidebar h2 {
-    font-size: 1.2em;
+    
     margin-bottom: 10px;
 }
 
@@ -131,7 +137,7 @@ nav a:hover{
 }
 
 .content h1 {
-    font-size: 1.5em;
+    
     margin-bottom: 10px;
 }
 
@@ -148,7 +154,7 @@ nav a:hover{
 }
 
 .right-sidebar h2 {
-    font-size: 1.2em;
+    
     margin-bottom: 10px;
 }
 
